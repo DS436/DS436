@@ -16,7 +16,7 @@ Co-Founder & AI Engineer @ **[LayeredAI](https://layeredai.us)** — forward-dep
 ### // currently
 
 - Shipping **Relay** — AI workflow automation for real-estate transaction coordinators · 94% setup-time reduction
-- Agentic account researcher for a YC W25 portfolio company · +18% SDR productivity
+- **ARFlow Pro** AI-assisted Accounts Receivable collections platform.
 - RAG + eval harnesses for mid-market enterprise deployments
 
 ---
