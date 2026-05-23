@@ -1,16 +1,45 @@
-## Hi there 👋
+<!-- STATUS -->
+> `// STATUS : SHIPPING / NYC`
 
-<!--
-**DS436/DS436** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Devansh Sharma
 
-Here are some ideas to get you started:
+Co-Founder & AI Engineer @ **[LayeredAI](https://layeredai.us)** — forward-deployed AI firm shipping production LLM, RAG, and agentic systems for 20–500 person teams.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**I architect, build, and ship AI systems that survive contact with real users.**
+
+// FOCUS    Production LLM systems · RAG · Agentic AI · LLMOps
+// STACK    Provider-agnostic · Python + GCP biased
+// BASE     New York · Deploying across US enterprise
+
+---
+
+### // currently
+
+- Shipping **Relay** — AI workflow automation for real-estate transaction coordinators · 94% setup-time reduction
+- Agentic account researcher for a YC W25 portfolio company · +18% SDR productivity
+- RAG + eval harnesses for mid-market enterprise deployments
+
+---
+
+### // recent public builds
+
+| Repo | What it is |
+|---|---|
+| **[rag-chat](https://github.com/DS436/rag-chat)** | Document chat · Next.js + FastAPI + Chroma + Postgres · source-grounded, inline citations |
+| **[reviewbot-swarm](https://github.com/DS436/reviewbot-swarm)** | Multi-agent PR reviewer · parallel security / perf / style agents · validator gate before posting |
+| **[Resume_Parser-AI](https://github.com/DS436/Resume_Parser-AI)** | Structured entity extraction from unstructured resumes · NLP + Document AI |
+
+---
+
+### // interests
+
+`Agentic AI` · `RAG retrieval & evals` · `Context engineering` · `AI system security`
+
+---
+
+### // elsewhere
+
+[Portfolio ↗](https://web-tau-opal-88.vercel.app/) &nbsp;·&nbsp;
+[LinkedIn ↗](https://linkedin.com/in/devansh-sharma436) &nbsp;·&nbsp;
+[LayeredAI ↗](https://layeredai.us) &nbsp;·&nbsp;
+sharmadevansh436@gmail.com
