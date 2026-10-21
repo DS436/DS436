@@ -16,12 +16,21 @@ I co-founded **[LayeredAI](https://layeredai.us)**, a forward-deployed AI firm i
 
 - **Published:** [*Fewer Words, Not Fewer Tokens: Measuring the Sanskrit Tokenization Penalty per Proposition*](https://arxiv.org/abs/2609.12960) on arXiv. Code and every number are in [sanskrit-token](https://github.com/DS436/sanskrit-token).
 - **Building at LayeredAI:** production AI systems for mid-market teams, with eval harnesses, guardrails, and cost controls built in from day one.
-- **Shipped for fun:** [Rain Padel](https://rain-padel.vercel.app), which runs a social padel night from one phone.
+- **Live side projects:**
+  - [SchedulerAI](https://scheduler-ai-gamma.vercel.app) (private beta): a daily time ledger that turns calendar, goals, and WHOOP recovery into an AI morning brief.
+  - [Paperbot](https://paperbot-kappa.vercel.app): an AI paper-trading copilot for Polymarket where a person approves every trade.
+  - [Rain Padel](https://rain-padel.vercel.app): runs a social padel night from one phone.
+
+  SchedulerAI and Paperbot keep their repos private, so their cards link to the live apps.
 
 ## Featured work
 
 <p>
   <a href="https://github.com/DS436/sanskrit-token"><img src="assets/card-sanskrit-token.svg" width="49%" alt="sanskrit-token" /></a>
+  <a href="https://scheduler-ai-gamma.vercel.app"><img src="assets/card-schedulerai.svg" width="49%" alt="SchedulerAI" /></a>
+</p>
+<p>
+  <a href="https://paperbot-kappa.vercel.app"><img src="assets/card-paperbot.svg" width="49%" alt="Paperbot" /></a>
   <a href="https://github.com/DS436/rain-padel"><img src="assets/card-rain-padel.svg" width="49%" alt="Rain Padel" /></a>
 </p>
 <p>
@@ -40,9 +49,9 @@ I co-founded **[LayeredAI](https://layeredai.us)**, a forward-deployed AI firm i
 
 ## Stack
 
-<img src="assets/stack.svg" width="100%" alt="Python, TypeScript, PyTorch, TensorFlow, FastAPI, Next.js, React, Postgres, Chroma, Supabase, BigQuery, Vertex AI, Cloud Run, SageMaker, Azure OpenAI, Docker, Kubernetes, Sentry, LoRA + QLoRA, DeepSpeed" />
+<img src="assets/stack.svg" width="100%" alt="Claude 5.5, GPT, Gemini, Llama, Qwen, DeepSeek, Anthropic SDK, MCP, LangChain, PyTorch, Transformers, Python, TypeScript, Next.js, FastAPI, Supabase, Postgres, Prisma, Chroma, Vercel, BigQuery, Cloud Run, Docker, Kubernetes, Sentry" />
 
-Provider-agnostic: OpenAI, Anthropic, Google, AWS, Azure, and self-hosted models. I pick based on data sensitivity, latency, cost, and governance.
+Provider-agnostic: Claude, GPT, and Gemini where quality matters most; open weights (Llama, Qwen, DeepSeek) served through Groq, OpenRouter, or self-hosted when data has to stay put or cost has to drop.
 
 <details>
 <summary><b>Earlier projects</b></summary>

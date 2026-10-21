@@ -214,8 +214,63 @@ card('card-reviewbot-swarm.svg', 'reviewbot-swarm: multi-agent pull request revi
      'TYPESCRIPT · ANTHROPIC · GITHUB API', '\n'.join(v),
      '.gate{transform-box:fill-box;transform-origin:center;animation:gate 1.6s ease-out infinite}@keyframes gate{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(1.35)}}')
 
+# schedulerAI: day timeline with a moving "now" line and a recovery ring
+import math
+v = [f'<text x="368" y="54" class="mono" font-size="9.5" letter-spacing="1.2" fill="{T3}">TODAY · 82% RECOVERY</text>']
+r, cx, cy = 20, 532, 76
+circ = 2*math.pi*r
+v.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="#1d1d22" stroke-width="5"/>'
+         f'<circle class="ring82" cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{GOOD}" stroke-width="5" stroke-linecap="round" '
+         f'stroke-dasharray="{circ:.1f}" stroke-dashoffset="{circ*0.18:.1f}" transform="rotate(-90 {cx} {cy})"/>'
+         f'<text x="{cx}" y="{cy+4}" text-anchor="middle" font-family="{MONO}" font-size="10" fill="{GOOD}">82</text>')
+blocks = [('9:00','Deep work · planner',96,ACC),('11:00','Reviews UI',64,ACC),('1:30','Gym · upper body',52,GOOD),('3:30','Weekly review',70,T2),('5:30','Reading',40,T2)]
+for i,(t,lab,w,c) in enumerate(blocks):
+    y = 112 + i*28
+    v.append(f'<text x="366" y="{y+12}" font-family="{MONO}" font-size="9" fill="{T3}">{t}</text>'
+             f'<rect x="400" y="{y}" width="156" height="18" rx="3" fill="{BG2}" stroke="{LINE}"/>'
+             f'<rect class="fill" style="animation-delay:{i*0.55:.2f}s" x="400" y="{y}" width="{w}" height="18" rx="3" fill="{c}" fill-opacity=".22"/>'
+             f'<text x="406" y="{y+12.5}" font-family="{SANS}" font-size="10" fill="{TEXT}">{lab}</text>')
+v.append(f'<g class="now"><line x1="396" y1="106" x2="560" y2="106" stroke="{ACC}" stroke-width="1.2"/><circle cx="396" cy="106" r="3" fill="{ACC}"/></g>'
+         f'<text x="368" y="262" font-family="{MONO}" font-size="9" fill="{T3}">WHOOP · CALENDAR · GOALS → BRIEF</text>')
+card('card-schedulerai.svg', 'SchedulerAI: a daily time ledger with an AI morning brief',
+     'LIVE APP · PRIVATE BETA', 'SchedulerAI',
+     ['A daily ledger for where the time', 'went. Timer, goals, calendar and', 'WHOOP recovery become an AI', 'morning brief and a plan.'],
+     'NEXT.JS · PRISMA · NEXTAUTH · LLM', '\n'.join(v),
+     f'.ring82{{animation:ring82 6s {EASE_IO} infinite both}}@keyframes ring82{{0%,8%{{stroke-dashoffset:{circ:.1f}}}35%,88%{{stroke-dashoffset:{circ*0.18:.1f}}}100%{{stroke-dashoffset:{circ:.1f}}}}}'
+     f'.fill{{transform-box:fill-box;transform-origin:left center;animation:fill 6s {EASE} infinite both}}@keyframes fill{{0%,4%{{transform:scaleX(0)}}16%,88%{{transform:scaleX(1);opacity:1}}98%,100%{{transform:scaleX(1);opacity:0}}}}'
+     '.now{animation:now 6s linear infinite}@keyframes now{0%{transform:translateY(0)}88%{transform:translateY(140px);opacity:1}96%,100%{transform:translateY(140px);opacity:0}}')
+
+# paperbot: a proposal with estimate vs market and a pulsing approve button
+pb = [
+  f'<text x="368" y="54" class="mono" font-size="9.5" letter-spacing="1.2" fill="{T3}">MORNING QUEUE · PAPER</text>',
+  f'<rect x="366" y="66" width="34" height="16" rx="3" fill="rgba(127,176,105,.14)" stroke="{GOOD}"/>',
+  f'<text x="383" y="78" text-anchor="middle" font-family="{MONO}" font-size="9" fill="{GOOD}">YES</text>',
+  f'<text x="366" y="102" font-family="{SERIF}" font-size="13" fill="{TEXT}">Will the central bank</text>',
+  f'<text x="366" y="119" font-family="{SERIF}" font-size="13" fill="{TEXT}">hold rates next meeting?</text>',
+  f'<text x="366" y="144" font-family="{MONO}" font-size="9" fill="{T2}">PAPERBOT</text><text x="556" y="144" text-anchor="end" font-family="{MONO}" font-size="10" fill="{ACC}">68%</text>',
+  f'<rect x="366" y="150" width="190" height="8" rx="2" fill="#1d1d22"/>',
+  f'<rect class="est" x="366" y="150" width="{190*0.68:.1f}" height="8" rx="2" fill="{ACC}"/>',
+  f'<text x="366" y="176" font-family="{MONO}" font-size="9" fill="{T2}">MARKET</text><text x="556" y="176" text-anchor="end" font-family="{MONO}" font-size="10" fill="{T2}">56%</text>',
+  f'<rect x="366" y="182" width="190" height="8" rx="2" fill="#1d1d22"/>',
+  f'<rect class="mkt" x="366" y="182" width="{190*0.56:.1f}" height="8" rx="2" fill="{T2}"/>',
+  f'<text class="edge" x="366" y="210" font-family="{MONO}" font-size="9" fill="{GOOD}">+12 PT EDGE · MAX LOSS $20</text>',
+  f'<rect x="366" y="224" width="112" height="28" rx="4" fill="{ACC}"/>',
+  f'<rect class="pulse" x="366" y="224" width="112" height="28" rx="4" fill="none" stroke="{ACC}" stroke-width="2"/>',
+  f'<text x="422" y="242" text-anchor="middle" font-family="{MONO}" font-size="9.5" font-weight="700" fill="{BG}">APPROVE</text>',
+  f'<rect x="486" y="224" width="70" height="28" rx="4" fill="{BG2}" stroke="{LINE}"/>',
+  f'<text x="521" y="242" text-anchor="middle" font-family="{MONO}" font-size="9.5" fill="{T2}">PASS</text>',
+]
+card('card-paperbot.svg', 'Paperbot: an AI copilot for prediction-market paper trading',
+     'LIVE APP · AI TRADING COPILOT', 'Paperbot',
+     ['Researches Polymarket overnight', 'with live web search, forms its own', 'probability, Kelly-sizes paper bets,', 'and waits for a human yes or no.'],
+     'NEXT.JS · SUPABASE · CLAUDE · SEARCH', '\n'.join(pb),
+     f'.est,.mkt{{transform-box:fill-box;transform-origin:left center;animation:bar 6s {EASE_IO} infinite both}}.mkt{{animation-delay:.2s}}'
+     '@keyframes bar{0%,6%{transform:scaleX(0)}28%,88%{transform:scaleX(1);opacity:1}98%,100%{transform:scaleX(1);opacity:0}}'
+     '.edge{animation:edge 6s ease infinite both}@keyframes edge{0%,30%{opacity:0}40%,88%{opacity:1}98%,100%{opacity:0}}'
+     '.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}@keyframes pulse{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(1.18,1.5)}}')
+
 # ───────────────────────── stack marquee ─────────────────────────
-items = ['Python','TypeScript','PyTorch','TensorFlow','FastAPI','Next.js','React','Postgres','Chroma','Supabase','BigQuery','Vertex AI','Cloud Run','SageMaker','Azure OpenAI','Docker','Kubernetes','Sentry','LoRA + QLoRA','DeepSpeed']
+items = ['Claude 5.5','GPT','Gemini','Llama','Qwen','DeepSeek','Anthropic SDK','MCP','LangChain','PyTorch','Transformers','Python','TypeScript','Next.js','FastAPI','Supabase','Postgres','Prisma','Chroma','Vercel','BigQuery','Cloud Run','Docker','Kubernetes','Sentry']
 CW, GAP = 13.25, 64
 x = 0; parts = []
 for it in items:

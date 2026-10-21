@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="Paperbot: an AI copilot for prediction-market paper trading">
+  <style>
+    .serif{font-family:Fraunces, 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif} .mono{font-family:'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace} .sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}
+    .est,.mkt{transform-box:fill-box;transform-origin:left center;animation:bar 6s cubic-bezier(0.77, 0, 0.175, 1) infinite both}.mkt{animation-delay:.2s}@keyframes bar{0%,6%{transform:scaleX(0)}28%,88%{transform:scaleX(1);opacity:1}98%,100%{transform:scaleX(1);opacity:0}}.edge{animation:edge 6s ease infinite both}@keyframes edge{0%,30%{opacity:0}40%,88%{opacity:1}98%,100%{opacity:0}}.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}@keyframes pulse{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(1.18,1.5)}}
+    @media (prefers-reduced-motion: reduce){*{animation:none !important}}
+  </style>
+  <defs><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".03"/></pattern></defs>
+  <rect x=".5" y=".5" width="599" height="299" rx="12" fill="#111114" stroke="#25252b"/>
+  <text x="32" y="48" class="mono" font-size="11.5" letter-spacing="1.4" fill="#e9743b">LIVE APP · AI TRADING COPILOT</text>
+  <text x="32" y="94" class="serif" font-size="32" fill="#ede8dd" letter-spacing="-.5">Paperbot</text>
+  <text x="32" y="132" class="sans" font-size="15" fill="#9a958a">Researches Polymarket overnight</text><text x="32" y="155" class="sans" font-size="15" fill="#9a958a">with live web search, forms its own</text><text x="32" y="178" class="sans" font-size="15" fill="#9a958a">probability, Kelly-sizes paper bets,</text><text x="32" y="201" class="sans" font-size="15" fill="#9a958a">and waits for a human yes or no.</text>
+  <text x="32" y="270" class="mono" font-size="11" letter-spacing="1.2" fill="#645f56">NEXT.JS · SUPABASE · CLAUDE · SEARCH</text>
+  <rect x="352" y="28" width="220" height="244" rx="8" fill="#0b0b0d" stroke="#25252b"/>
+  <rect x="352" y="28" width="220" height="244" rx="8" fill="url(#g)"/>
+  <text x="368" y="54" class="mono" font-size="9.5" letter-spacing="1.2" fill="#645f56">MORNING QUEUE · PAPER</text>
+<rect x="366" y="66" width="34" height="16" rx="3" fill="rgba(127,176,105,.14)" stroke="#7fb069"/>
+<text x="383" y="78" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#7fb069">YES</text>
+<text x="366" y="102" font-family="Fraunces, 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="13" fill="#ede8dd">Will the central bank</text>
+<text x="366" y="119" font-family="Fraunces, 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="13" fill="#ede8dd">hold rates next meeting?</text>
+<text x="366" y="144" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#9a958a">PAPERBOT</text><text x="556" y="144" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#e9743b">68%</text>
+<rect x="366" y="150" width="190" height="8" rx="2" fill="#1d1d22"/>
+<rect class="est" x="366" y="150" width="129.2" height="8" rx="2" fill="#e9743b"/>
+<text x="366" y="176" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#9a958a">MARKET</text><text x="556" y="176" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#9a958a">56%</text>
+<rect x="366" y="182" width="190" height="8" rx="2" fill="#1d1d22"/>
+<rect class="mkt" x="366" y="182" width="106.4" height="8" rx="2" fill="#9a958a"/>
+<text class="edge" x="366" y="210" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#7fb069">+12 PT EDGE · MAX LOSS $20</text>
+<rect x="366" y="224" width="112" height="28" rx="4" fill="#e9743b"/>
+<rect class="pulse" x="366" y="224" width="112" height="28" rx="4" fill="none" stroke="#e9743b" stroke-width="2"/>
+<text x="422" y="242" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="700" fill="#0b0b0d">APPROVE</text>
+<rect x="486" y="224" width="70" height="28" rx="4" fill="#111114" stroke="#25252b"/>
+<text x="521" y="242" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#9a958a">PASS</text>
+</svg>
