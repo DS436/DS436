@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="sanskrit-token: tokenization research, arXiv 2609.12960">
+  <style>
+    .serif{font-family:Fraunces, 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif} .mono{font-family:'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace} .sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}
+    .grow{transform-box:fill-box;transform-origin:left center;animation:grow 7s cubic-bezier(0.77, 0, 0.175, 1) infinite both}@keyframes grow{0%{transform:scaleX(0)}22%{transform:scaleX(1)}86%{transform:scaleX(1);opacity:1}96%,100%{transform:scaleX(1);opacity:0}}
+    @media (prefers-reduced-motion: reduce){*{animation:none !important}}
+  </style>
+  <defs><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".03"/></pattern></defs>
+  <rect x=".5" y=".5" width="599" height="299" rx="12" fill="#111114" stroke="#25252b"/>
+  <text x="32" y="48" class="mono" font-size="11.5" letter-spacing="1.4" fill="#e9743b">RESEARCH · ARXIV 2609.12960</text>
+  <text x="32" y="94" class="serif" font-size="32" fill="#ede8dd" letter-spacing="-.5">sanskrit-token</text>
+  <text x="32" y="132" class="sans" font-size="15" fill="#9a958a">Does Sanskrit's density survive</text><text x="32" y="155" class="sans" font-size="15" fill="#9a958a">subword tokenization? Measured per</text><text x="32" y="178" class="sans" font-size="15" fill="#9a958a">proposition against matched controls,</text><text x="32" y="201" class="sans" font-size="15" fill="#9a958a">with a paper built from the results.</text>
+  <text x="32" y="270" class="mono" font-size="11" letter-spacing="1.2" fill="#645f56">PYTHON · PYTORCH · SENTENCEPIECE</text>
+  <rect x="352" y="28" width="220" height="244" rx="8" fill="#0b0b0d" stroke="#25252b"/>
+  <rect x="352" y="28" width="220" height="244" rx="8" fill="url(#g)"/>
+  <text x="368" y="54" class="mono" font-size="9.5" letter-spacing="1.2" fill="#645f56">TOKENS VS TRANSLATION</text>
+<text x="368" y="84" class="mono" font-size="10" fill="#9a958a">vs English</text>
+    <text x="556" y="84" text-anchor="end" class="mono" font-size="10" fill="#e9743b">1.77–2.19×</text>
+    <rect x="368" y="92" width="188" height="9" rx="2" fill="#1d1d22"/>
+    <g class="grow" style="animation-delay:0.0s">
+      <rect x="368" y="92" width="171.5" height="9" rx="2" fill="#e9743b" fill-opacity=".3"/>
+      <rect x="506.6" y="92" width="32.9" height="9" fill="#e9743b"/>
+    </g>
+<text x="368" y="130" class="mono" font-size="10" fill="#9a958a">vs Hindi</text>
+    <text x="556" y="130" text-anchor="end" class="mono" font-size="10" fill="#e9743b">1.33–1.35×</text>
+    <rect x="368" y="138" width="188" height="9" rx="2" fill="#1d1d22"/>
+    <g class="grow" style="animation-delay:0.15s">
+      <rect x="368" y="138" width="107.2" height="9" rx="2" fill="#e9743b" fill-opacity=".3"/>
+      <rect x="472.2" y="138" width="3.0" height="9" fill="#e9743b"/>
+    </g>
+<text x="368" y="176" class="mono" font-size="10" fill="#9a958a">32–64k vocab</text>
+    <text x="556" y="176" text-anchor="end" class="mono" font-size="10" fill="#e9743b">1.03–1.14×</text>
+    <rect x="368" y="184" width="188" height="9" rx="2" fill="#1d1d22"/>
+    <g class="grow" style="animation-delay:0.3s">
+      <rect x="368" y="184" width="89.5" height="9" rx="2" fill="#e9743b" fill-opacity=".3"/>
+      <rect x="448.7" y="184" width="8.8" height="9" fill="#e9743b"/>
+    </g>
+<text x="368" y="222" class="mono" font-size="10" fill="#9a958a">128k vocab</text>
+    <text x="556" y="222" text-anchor="end" class="mono" font-size="10" fill="#7fb069">0.983×</text>
+    <rect x="368" y="230" width="188" height="9" rx="2" fill="#1d1d22"/>
+    <g class="grow" style="animation-delay:0.44999999999999996s">
+      <rect x="368" y="230" width="79.4" height="9" rx="2" fill="#7fb069" fill-opacity=".3"/>
+      <rect x="444.4" y="230" width="3.0" height="9" fill="#7fb069"/>
+    </g>
+<line x1="446.3" y1="64" x2="446.3" y2="250" stroke="#645f56" stroke-dasharray="3 3"/><text x="451.3" y="258" class="mono" font-size="9" fill="#645f56">PARITY</text>
+</svg>

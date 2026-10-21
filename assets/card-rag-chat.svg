@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="rag-chat: document chat with inline citations">
+  <style>
+    .serif{font-family:Fraunces, 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif} .mono{font-family:'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace} .sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}
+    .hot{opacity:0;animation:hot 5s linear infinite}@keyframes hot{0%,8%{opacity:0}14%,80%{opacity:1}90%,100%{opacity:0}}.beam{stroke-dasharray:60;stroke-dashoffset:60;animation:beam 5s ease-out infinite}@keyframes beam{0%,10%{stroke-dashoffset:60}22%,80%{stroke-dashoffset:0;opacity:1}90%,100%{stroke-dashoffset:0;opacity:0}}.ln{transform-box:fill-box;transform-origin:left center;animation:ln 5s cubic-bezier(0.23, 1, 0.32, 1) infinite both}@keyframes ln{0%,10%{transform:scaleX(0)}18%,82%{transform:scaleX(1);opacity:1}92%,100%{transform:scaleX(1);opacity:0}}.chip{transform-box:fill-box;transform-origin:center;animation:chip 5s cubic-bezier(0.23, 1, 0.32, 1) infinite both}@keyframes chip{0%,14%{opacity:0;transform:scale(.8)}20%,82%{opacity:1;transform:scale(1)}92%,100%{opacity:0}}
+    @media (prefers-reduced-motion: reduce){*{animation:none !important}}
+  </style>
+  <defs><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".03"/></pattern></defs>
+  <rect x=".5" y=".5" width="599" height="299" rx="12" fill="#111114" stroke="#25252b"/>
+  <text x="32" y="48" class="mono" font-size="11.5" letter-spacing="1.4" fill="#e9743b">RAG · SOURCE-GROUNDED CHAT</text>
+  <text x="32" y="94" class="serif" font-size="32" fill="#ede8dd" letter-spacing="-.5">rag-chat</text>
+  <text x="32" y="132" class="sans" font-size="15" fill="#9a958a">Upload documents, ask questions,</text><text x="32" y="155" class="sans" font-size="15" fill="#9a958a">get answers with inline citations.</text><text x="32" y="178" class="sans" font-size="15" fill="#9a958a">Background ingestion, vector search,</text><text x="32" y="201" class="sans" font-size="15" fill="#9a958a">and every claim tied to a source.</text>
+  <text x="32" y="270" class="mono" font-size="11" letter-spacing="1.2" fill="#645f56">NEXT.JS · FASTAPI · CHROMA · POSTGRES</text>
+  <rect x="352" y="28" width="220" height="244" rx="8" fill="#0b0b0d" stroke="#25252b"/>
+  <rect x="352" y="28" width="220" height="244" rx="8" fill="url(#g)"/>
+  <text x="368" y="54" class="mono" font-size="9.5" letter-spacing="1.2" fill="#645f56">RETRIEVE → ANSWER</text>
+<rect x="366" y="70" width="74" height="46" rx="4" fill="#111114" stroke="#25252b"/>
+    <rect class="hot" style="animation-delay:0.0s" x="366" y="70" width="74" height="46" rx="4" fill="rgba(233,116,59,.08)" stroke="#e9743b"/>
+    <rect x="376" y="82" width="48" height="4" rx="2" fill="#645f56"/><rect x="376" y="91" width="54" height="4" rx="2" fill="#2e2e35"/><rect x="376" y="100" width="38" height="4" rx="2" fill="#2e2e35"/>
+    <text x="434" y="110" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" fill="#e9743b">1</text>
+<path class="beam" style="animation-delay:0.0s" d="M440 93 C 456 93, 452 140, 468 140" fill="none" stroke="#e9743b" stroke-width="1.2"/>
+<rect x="366" y="130" width="74" height="46" rx="4" fill="#111114" stroke="#25252b"/>
+    
+    <rect x="376" y="142" width="48" height="4" rx="2" fill="#645f56"/><rect x="376" y="151" width="54" height="4" rx="2" fill="#2e2e35"/><rect x="376" y="160" width="38" height="4" rx="2" fill="#2e2e35"/>
+    
+<rect x="366" y="190" width="74" height="46" rx="4" fill="#111114" stroke="#25252b"/>
+    <rect class="hot" style="animation-delay:0.5s" x="366" y="190" width="74" height="46" rx="4" fill="rgba(233,116,59,.08)" stroke="#e9743b"/>
+    <rect x="376" y="202" width="48" height="4" rx="2" fill="#645f56"/><rect x="376" y="211" width="54" height="4" rx="2" fill="#2e2e35"/><rect x="376" y="220" width="38" height="4" rx="2" fill="#2e2e35"/>
+    <text x="434" y="230" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" fill="#e9743b">2</text>
+<path class="beam" style="animation-delay:0.5s" d="M440 213 C 456 213, 452 140, 468 140" fill="none" stroke="#e9743b" stroke-width="1.2"/>
+<rect x="468" y="84" width="92" height="112" rx="6" fill="#111114" stroke="#25252b"/>
+  <text x="478" y="100" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" letter-spacing="1" fill="#645f56">ANSWER</text>
+<rect class="ln" style="animation-delay:0.9s" x="478" y="110" width="70" height="4" rx="2" fill="#9a958a"/>
+<rect class="ln" style="animation-delay:1.05s" x="478" y="121" width="62" height="4" rx="2" fill="#9a958a"/>
+<rect class="ln" style="animation-delay:1.2s" x="478" y="132" width="72" height="4" rx="2" fill="#9a958a"/>
+<rect class="ln" style="animation-delay:1.35s" x="478" y="143" width="48" height="4" rx="2" fill="#9a958a"/>
+<rect class="ln" style="animation-delay:1.5s" x="478" y="154" width="66" height="4" rx="2" fill="#9a958a"/>
+<g class="chip" style="animation-delay:1.7s"><rect x="478" y="168" width="22" height="16" rx="3" fill="rgba(233,116,59,.14)" stroke="#e9743b"/><text x="489" y="180" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#e9743b">1</text></g>
+  <g class="chip" style="animation-delay:1.85s"><rect x="504" y="168" width="22" height="16" rx="3" fill="rgba(233,116,59,.14)" stroke="#e9743b"/><text x="515" y="180" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#e9743b">2</text></g>
+  <text x="368" y="258" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#645f56">2 OF 3 CHUNKS CITED</text>
+</svg>

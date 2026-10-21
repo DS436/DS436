@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="Rain Padel: social padel app with a live leaderboard">
+  <style>
+    .serif{font-family:Fraunces, 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif} .mono{font-family:'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace} .sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}
+    .ring{transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}@keyframes ring{0%{opacity:.6;transform:scale(1)}70%,100%{opacity:0;transform:scale(3)}}.up{animation:up 6s cubic-bezier(0.77, 0, 0.175, 1) infinite}@keyframes up{0%,40%{transform:translateY(0)}52%,88%{transform:translateY(-44px)}98%,100%{transform:translateY(0)}}.down{animation:down 6s cubic-bezier(0.77, 0, 0.175, 1) infinite}@keyframes down{0%,40%{transform:translateY(0)}52%,88%{transform:translateY(44px)}98%,100%{transform:translateY(0)}}.old{animation:old 6s linear infinite}@keyframes old{0%,30%{opacity:1}34%,92%{opacity:0}96%,100%{opacity:1}}.new{animation:new 6s linear infinite}@keyframes new{0%,30%{opacity:0}34%,92%{opacity:1}96%,100%{opacity:0}}.flash{opacity:0;animation:flash 6s linear infinite}@keyframes flash{0%,28%{opacity:0}34%{opacity:1}60%,100%{opacity:0}}.plus{opacity:0;animation:plus 6s cubic-bezier(0.23, 1, 0.32, 1) infinite}@keyframes plus{0%,28%{opacity:0;transform:translateY(6px)}34%{opacity:1;transform:translateY(0)}50%,100%{opacity:0;transform:translateY(-8px)}}
+    @media (prefers-reduced-motion: reduce){*{animation:none !important}}
+  </style>
+  <defs><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".03"/></pattern></defs>
+  <rect x=".5" y=".5" width="599" height="299" rx="12" fill="#111114" stroke="#25252b"/>
+  <text x="32" y="48" class="mono" font-size="11.5" letter-spacing="1.4" fill="#e9743b">LIVE APP · RAIN-PADEL.VERCEL.APP</text>
+  <text x="32" y="94" class="serif" font-size="32" fill="#ede8dd" letter-spacing="-.5">Rain Padel</text>
+  <text x="32" y="132" class="sans" font-size="15" fill="#9a958a">Runs a social padel night from one</text><text x="32" y="155" class="sans" font-size="15" fill="#9a958a">phone. Americano, Mexicano, King of</text><text x="32" y="178" class="sans" font-size="15" fill="#9a958a">the Court, with a live individual</text><text x="32" y="201" class="sans" font-size="15" fill="#9a958a">leaderboard as the scores come in.</text>
+  <text x="32" y="270" class="mono" font-size="11" letter-spacing="1.2" fill="#645f56">NEXT.JS · TYPESCRIPT · SUPABASE</text>
+  <rect x="352" y="28" width="220" height="244" rx="8" fill="#0b0b0d" stroke="#25252b"/>
+  <rect x="352" y="28" width="220" height="244" rx="8" fill="url(#g)"/>
+  <text x="368" y="54" class="mono" font-size="9.5" letter-spacing="1.2" fill="#645f56">MEXICANO · ROUND 3</text>
+  <circle class="ring" cx="530" cy="51" r="3.5" fill="#7fb069"/><circle cx="530" cy="51" r="3.5" fill="#7fb069"/>
+  <text x="556" y="54" text-anchor="end" class="mono" font-size="9.5" fill="#7fb069">LIVE</text>
+<g><rect x="364" y="68" width="196" height="34" rx="4" fill="#111114" stroke="#25252b"/>
+      <text x="412" y="90" class="serif" font-size="15" fill="#ede8dd">Aisha</text><text x="548" y="90" text-anchor="end" class="mono" font-size="13" fill="#e9743b">64</text></g>
+<g class="down"><rect x="364" y="112" width="196" height="34" rx="4" fill="#111114" stroke="#25252b"/>
+      <text x="412" y="134" class="serif" font-size="15" fill="#ede8dd">Omar</text><text x="548" y="134" text-anchor="end" class="mono" font-size="13" fill="#e9743b">58</text></g>
+<g class="up"><rect x="364" y="156" width="196" height="34" rx="4" fill="#111114" stroke="#25252b"/><rect class="flash" x="364" y="156" width="196" height="34" rx="4" fill="rgba(233,116,59,.12)" stroke="#e9743b"/>
+      <text x="412" y="178" class="serif" font-size="15" fill="#ede8dd">Dev</text><text class="old" x="548" y="178" text-anchor="end" font-size="13" fill="#e9743b" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">55</text><text class="new" x="548" y="178" text-anchor="end" font-size="13" fill="#e9743b" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">61</text><text class="plus" x="508" y="178" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#7fb069">+6</text></g>
+<g><rect x="364" y="200" width="196" height="34" rx="4" fill="#111114" stroke="#25252b"/>
+      <text x="412" y="222" class="serif" font-size="15" fill="#ede8dd">Rina</text><text x="548" y="222" text-anchor="end" class="mono" font-size="13" fill="#e9743b">49</text></g>
+<text x="378" y="90" class="mono" font-size="11" fill="#645f56">01</text><text x="378" y="134" class="mono" font-size="11" fill="#645f56">02</text><text x="378" y="178" class="mono" font-size="11" fill="#645f56">03</text><text x="378" y="222" class="mono" font-size="11" fill="#645f56">04</text>
+</svg>
