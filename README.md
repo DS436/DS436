@@ -10,7 +10,7 @@
   <a href="mailto:sharmadevansh436@gmail.com"><img src="https://img.shields.io/badge/Email-0b0b0d?style=for-the-badge&logo=gmail&logoColor=e9743b" alt="Email" /></a>
 </p>
 
-I co-founded **[LayeredAI](https://layeredai.us)**, a forward-deployed AI firm in New York. We build production LLM, RAG, and agentic systems for teams of 20 to 500 people. I design them, build them, and keep them running after launch. On the side I do research on how tokenizers handle morphologically dense languages.
+I co-founded **[LayeredAI](https://layeredai.us)**, a forward-deployed AI firm in Chicago. We build production LLM, RAG, and agentic systems for teams of 20 to 500 people. I design them, build them, and keep them running after launch. On the side I do research on how tokenizers handle morphologically dense languages.
 
 ## Now
 
