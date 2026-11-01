@@ -210,7 +210,7 @@ v.append(f'''<rect x="478" y="104" width="44" height="56" rx="4" fill="rgba(233,
   <text x="368" y="252" font-family="{MONO}" font-size="9" fill="{T3}">BEFORE ANYTHING IS POSTED</text>''')
 card('card-reviewbot-swarm.svg', 'reviewbot-swarm: multi-agent pull request reviewer',
      'MULTI-AGENT · PR REVIEW', 'reviewbot-swarm',
-     ['Security, performance, style and', 'test agents review a PR in parallel.', 'A validator gate drops weak findings', 'before anything gets posted.'],
+     ['Security, performance, style and', 'test agents run in parallel on Haiku.', 'A Sonnet gate drops false positives,', 'using about 60% fewer tokens.'],
      'TYPESCRIPT · ANTHROPIC · GITHUB API', '\n'.join(v),
      '.gate{transform-box:fill-box;transform-origin:center;animation:gate 1.6s ease-out infinite}@keyframes gate{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(1.35)}}')
 

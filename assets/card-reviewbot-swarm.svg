@@ -8,7 +8,7 @@
   <rect x=".5" y=".5" width="599" height="299" rx="12" fill="#111114" stroke="#25252b"/>
   <text x="32" y="48" class="mono" font-size="11.5" letter-spacing="1.4" fill="#e9743b">MULTI-AGENT · PR REVIEW</text>
   <text x="32" y="94" class="serif" font-size="32" fill="#ede8dd" letter-spacing="-.5">reviewbot-swarm</text>
-  <text x="32" y="132" class="sans" font-size="15" fill="#9a958a">Security, performance, style and</text><text x="32" y="155" class="sans" font-size="15" fill="#9a958a">test agents review a PR in parallel.</text><text x="32" y="178" class="sans" font-size="15" fill="#9a958a">A validator gate drops weak findings</text><text x="32" y="201" class="sans" font-size="15" fill="#9a958a">before anything gets posted.</text>
+  <text x="32" y="132" class="sans" font-size="15" fill="#9a958a">Security, performance, style and</text><text x="32" y="155" class="sans" font-size="15" fill="#9a958a">test agents run in parallel on Haiku.</text><text x="32" y="178" class="sans" font-size="15" fill="#9a958a">A Sonnet gate drops false positives,</text><text x="32" y="201" class="sans" font-size="15" fill="#9a958a">using about 60% fewer tokens.</text>
   <text x="32" y="270" class="mono" font-size="11" letter-spacing="1.2" fill="#645f56">TYPESCRIPT · ANTHROPIC · GITHUB API</text>
   <rect x="352" y="28" width="220" height="244" rx="8" fill="#0b0b0d" stroke="#25252b"/>
   <rect x="352" y="28" width="220" height="244" rx="8" fill="url(#g)"/>
