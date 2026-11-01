@@ -10,12 +10,12 @@
   <a href="mailto:sharmadevansh436@gmail.com"><img src="https://img.shields.io/badge/Email-0b0b0d?style=for-the-badge&logo=gmail&logoColor=e9743b" alt="Email" /></a>
 </p>
 
-I co-founded **[LayeredAI](https://layeredai.us)**, a forward-deployed AI firm in Chicago. We build production LLM, RAG, and agentic systems for teams of 20 to 500 people. I design them, build them, and keep them running after launch. On the side I do research on how tokenizers handle morphologically dense languages.
+I co-founded **[LayeredAI](https://layeredai.us)** in Chicago. We're building the control centre that project-based companies (contractors, equipment rental firms, field services) run from. It sits read-only on top of the ERP, contracts, site records, and machine data they already have, and each company's approvals and outcomes become its own private layer of intelligence. On the side I do research on how tokenizers handle morphologically dense languages.
 
 ## Now
 
 - **Published:** [*Fewer Words, Not Fewer Tokens: Measuring the Sanskrit Tokenization Penalty per Proposition*](https://arxiv.org/abs/2609.12960) on arXiv. Code and every number are in [sanskrit-token](https://github.com/DS436/sanskrit-token).
-- **Building at LayeredAI:** production AI systems for mid-market teams, with eval harnesses, guardrails, and cost controls built in from day one.
+- **Building at LayeredAI:** source-cited answers, morning briefs ranked by money at risk, drafted claims a person approves, and a phone voice agent that confirms before it writes. We're starting with piling and heavy-equipment contractors in the Gulf.
 - **Live side projects:**
   - [SchedulerAI](https://scheduler-ai-gamma.vercel.app) (private beta): a daily time ledger that turns calendar, goals, and WHOOP recovery into an AI morning brief.
   - [Paperbot](https://paperbot-kappa.vercel.app): an AI paper-trading copilot for Polymarket where a person approves every trade.
